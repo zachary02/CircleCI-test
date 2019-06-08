@@ -1,4 +1,4 @@
-const { sayHelloTo, sayHiTo, sayYetTo, sayByeTo, sayGoodTo, sayLucyTo, sayHappyTo，sayNiceTo } = require('./sketch');
+const { sayHelloTo, sayHiTo, sayYetTo, sayByeTo, sayGoodTo, sayLucyTo, sayHappyTo, sayNiceTo } = require('./sketch');
 
 //hello
 function helloTest() {
