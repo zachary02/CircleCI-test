@@ -1,4 +1,4 @@
-const { sayHelloTo, sayHiTo, sayYetTo, sayByeTo, sayGoodTo, sayHelloTo, sayLuckTo£¬sayHappyTo } = require('./sketch');
+const { sayHelloTo, sayHiTo, sayYetTo, sayByeTo, sayGoodTo, sayLucyTo, sayHappyTo£¬sayNiceTo } = require('./sketch');
 
 //hello
 function helloTest() {
@@ -91,7 +91,7 @@ test('sayHappyTo zachary should be Happy, zachary!', () => {
   happyTest();
 });
 
-//happy
+//nice
 function niceTest() {
   expect(sayNiceTo("zachary")).toBe("Nice, zachary!");
 }
