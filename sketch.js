@@ -19,10 +19,6 @@ function sayGoodTo(username){
   return "Good, " + username + "!";
 }
 
-function sayLuckTo(username){
-  return "Luck, " + username + "!";
-}
-
 function sayHappyTo(username){
   return "Happy, " + username + "!";
 }
@@ -37,7 +33,6 @@ module.exports = {
    sayYetTo: sayYetTo,
    sayByeTo: sayByeTo,
    sayGoodTo: sayGoodTo,
-   sayLuckTo: sayLuckTo,
    sayHappyTo: sayHappyTo,
    sayNiceTo: sayNiceTo
 }
