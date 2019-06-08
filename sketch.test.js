@@ -1,4 +1,4 @@
-const { sayHelloTo, sayHiTo, sayYetTo, sayByeTo, sayGoodTo, sayLucyTo, sayHappyTo, sayNiceTo } = require('./sketch');
+const { sayHelloTo, sayHiTo, sayYetTo, sayByeTo, sayGoodTo, sayHappyTo, sayNiceTo } = require('./sketch');
 
 //hello
 function helloTest() {
@@ -65,18 +65,7 @@ test('sayGoodTo zachary should be Good, zachary!', () => {
   goodTest();
 });
 
-//luck
-function luckTest() {
-  expect(sayLuckTo("zachary")).toBe("Luck, zachary!");
-}
 
-test('sayLuckTo function exists', () => {
-  expect(sayLuckTo).toBeDefined();
-});
-
-test('sayLuckTo zachary should be Luck, zachary!', () => {
-  luckTest();
-});
 
 //happy
 function happyTest() {
